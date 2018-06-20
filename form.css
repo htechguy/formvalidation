@@ -1,0 +1,17 @@
+.label{
+    width:115px;
+    float:left;
+}
+form div{
+    padding: 2px;
+}
+#tbl tr td{
+    border: 1px solid red;
+}
+#tbl{
+    border-collapse: collapse;
+}
+body{
+    background-color: lightblue;
+   
+}
