@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <title>
+        User's Information Form
+    </title>
+    <link rel="stylesheet" href="form.css">
+
+    <body onload="tabular()">
+        <h1> User's Information</h1>
+       
+        
+        <form name="register">
+
+            <div>
+                <label for="uname" class="label">UserName</label>
+                <input type="text" id="uname" name="uname">
+            </div>
+
+            <div>
+                    <label for="pass" class="label">Password</label>
+                    <input type="password" id="pass" name="pass">
+            </div>
+
+            <div>
+                    <label for="mail" class="label">Email</label>
+                    <input type="email" id="mail" name="mail">
+            </div>
+
+            <div>
+                    <label for="loc" class="label">Location</label>
+                    <input type="text" id="loc" name="loc">
+            </div>
+
+            <div>
+                    <label for="comp" class="label">Company name</label>
+                    <input type="text" id="comp" name="comp">
+            </div>
+            
+            <div>
+                <h3> Gender </h3>
+                <input type="radio" id="gen1" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="gen2" name="gender" value="female">
+                <label for="female" id="lbl">Female</label> 
+            </div>
+
+            <div>
+                <button type="button" id="btn">Register</button>
+            </div>
+            <table id="tbl"></table>
+
+
+        </form>
+
+
+        <script src="form.js"></script>
+   
+    </body>
+</html>
